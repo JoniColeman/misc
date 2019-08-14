@@ -5,7 +5,7 @@ library(optparse)
 options(scipen = 999)
 
 # Background --------------------------------------------------------------
-
+# BBS can be found here: https://github.com/choishingwan/BBS
 option_list <- list(
     make_option(c("--bfile", "-b"), type = "character", help = "PLINK prefix"),
     make_option(c("--fam", "-f"), type = "character", help = "QCed sample list"),
